@@ -1,0 +1,276 @@
+"use strict";
+
+var tmp = Date.now();
+debugger;
+var tmp = Date.now() - tmp;
+
+if (tmp > 100) {
+  window.location.reload();
+} // ---------------------------------------------
+// The javascript below IS part of the challenge
+// ---------------------------------------------
+
+
+var a = ['wqhHw6bDrMOuwqorSMO4wqTCj8KsH8KRB8K+', 'RmxQCHzCuw==', 'wp7Dn8KPwpA=', 'wrgbw7HDvQ==', 'JcKWVlHDuA==', 'woTDmsO7XsKbc8OE', 'w6fDiF8=', 'w6gAwr9+b0AlRMO8', 'woPDmsOsXcKAbA==', 'L8KfV1nDvsOy', 'PjRnwo/Cv2g=', 'w47DjEPDkmh5MsKPw7wLw6PDuQhf', 'wobDlcKGw4TCqcOwwprDpQ==', 'NnlZwrMmUWjDk8K2', 'w6NZGEExcsOcYUY1DVJVacOuwrPDixQ+wpA=', 'wplUw5o=', 'wpjDkHbDisKENwk=', 'wpvDkMORTsKGbcOEwpA=', 'wqMRw48aw5VFfsO0GVR0w5FEDTfCsg==', 'wogzVsKQQw==', 'AcOEex4=', 'w5bDp8KYw7k=', 'w73DucOlwq3Cs2dZEBU=', 'wr0Ew7bDtsOew5zCkC4yJsOC', 'wrARw6jDtMOEw5A=', 'w5zDrsKRw6I2', 'wqPCmyJ3w5o0FXXCuQ==', 'wp/DvgHCrUp3CUNlFMKKwonCjg==', 'wo3DiknCjjV7wrHCqQ==', 'w5LDtMOpGMO7GMOc', 'w68EIMOzw48=', 'w5bDvsOzLsO4EcOUXMOCU3PCvQrCtsKEM8K9wpJaDg==', 'BVxawoEKcw==', 'Q8O9IcOlw74=', 'woUgbMOow4/DlQ==', 'wplFw5IZw54=', 'w7ROF3nCgQ==', 'wrrDjWrDlsKcDhw=', 'wo0qdcOh', 'w6NZGEExcsOcYUY1PGllWQ==', 'w6o7wqNJ', 'w6Z2w4AlQVs=', 'HRDDscODw5Y=', 'w5jDo8Kdw6YjX2tUwosZwqR+woLCghs=', 'wolDw44Uw48HT8K4CFF4w5Fb', 'w7wiwr9OVA==', 'LcOEbwI=', 'w64INg==', 'w5vDssKOw6E9', 'wrsRw7LDlsOcw53CviM1PsOVTE0ufXpXE8KKJA==', 'wpfDmnbDnsKfMw==', 'HRQUX1k4', 'NcOSD2JxX2wLb8OC', 'w4jDo8KQw6krQA==', 'w4vCj8Kgwqk=', 'w7siwrVTUg==', 'LsOHbglz', 'woUqYcOuw4/DlDTCqg==', 'J8Offwt0A8Odw4bClE5NIm7DnA/DhcOMPkXDhsOWQ3B2w7/DpgbCj23CuMORwrIOIFBEwo3CvcKmUcOhw5zDtAscwrF4dsOO', 'wpABw4VewqDCtxo=', 'wrUaw6jDtsOCw7DChwsX', 'w6LCnyxDDgHDjcOz', 'WFrCksOy', 'wpDDlcKNwp0=', 'LsONNcKLTcKXwrHCll5AUw==', 'wpjDkHzDnA==', 'ZMKvQQ==', 'wpTDlsKGwovCvg==', 'A8OSGQ==', 'woExdsO/w4jCh3TDqywGwpw0w5oYW0QYRlA3w6Ytw4UyBMKbZMOxwoNSN2DCo3PCu8Kdwo04w70GGsKUDMKZwoUFw4DCsgRdwqwTMsOHcmLDvG4pNmHCihEkwqjDoUNB', 'w7fDuMOlwrvCrkNo'];
+
+(function (b, c) {
+  var f = function f(g) {
+    while (--g) {
+      b['push'](b['shift']());
+    }
+  };
+
+  f(++c);
+})(a, 0x1e6);
+
+var b = function b(c, d) {
+  c = c - 0x0;
+  var e = a[c];
+
+  if (b['GAqgap'] === undefined) {
+    (function () {
+      var h = function h() {
+        var k;
+
+        try {
+          k = Function('return\x20(function()\x20' + '{}.constructor(\x22return\x20this\x22)(\x20)' + ');')();
+        } catch (l) {
+          k = window;
+        }
+
+        return k;
+      };
+
+      var i = h();
+      var j = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+      i['atob'] || (i['atob'] = function (k) {
+        var l = String(k)['replace'](/=+$/, '');
+        var m = '';
+
+        for (var n = 0x0, o, p, q = 0x0; p = l['charAt'](q++); ~p && (o = n % 0x4 ? o * 0x40 + p : p, n++ % 0x4) ? m += String['fromCharCode'](0xff & o >> (-0x2 * n & 0x6)) : 0x0) {
+          p = j['indexOf'](p);
+        }
+
+        return m;
+      });
+    })();
+
+    var g = function g(h, l) {
+      var m = [],
+          n = 0x0,
+          o,
+          p = '',
+          q = '';
+      h = atob(h);
+
+      for (var t = 0x0, u = h['length']; t < u; t++) {
+        q += '%' + ('00' + h['charCodeAt'](t)['toString'](0x10))['slice'](-0x2);
+      }
+
+      h = decodeURIComponent(q);
+      var r;
+
+      for (r = 0x0; r < 0x100; r++) {
+        m[r] = r;
+      }
+
+      for (r = 0x0; r < 0x100; r++) {
+        n = (n + m[r] + l['charCodeAt'](r % l['length'])) % 0x100;
+        o = m[r];
+        m[r] = m[n];
+        m[n] = o;
+      }
+
+      r = 0x0;
+      n = 0x0;
+
+      for (var v = 0x0; v < h['length']; v++) {
+        r = (r + 0x1) % 0x100;
+        n = (n + m[r]) % 0x100;
+        o = m[r];
+        m[r] = m[n];
+        m[n] = o;
+        p += String['fromCharCode'](h['charCodeAt'](v) ^ m[(m[r] + m[n]) % 0x100]);
+      }
+
+      return p;
+    };
+
+    b['tkRsAN'] = g;
+    b['gdnNPM'] = {};
+    b['GAqgap'] = !![];
+  }
+
+  var f = b['gdnNPM'][c];
+
+  if (f === undefined) {
+    if (b['gzKHOK'] === undefined) {
+      b['gzKHOK'] = !![];
+    }
+
+    e = b['tkRsAN'](e, d);
+    b['gdnNPM'][c] = e;
+  } else {
+    e = f;
+  }
+
+  return e;
+};
+
+function replaceAlert() {
+  window[b('0x42', 'f)uD')] = null;
+}
+
+function replaceConsole() {
+  window[b('0x28', 'i&qo')] = null;
+}
+
+function replaceWrite() {
+  document[b('0x35', 'fAM$')] = null;
+}
+
+const functions = ['up', b('0x31', 'FZHX'), b('0xd', 'DsJc'), 'right'];
+const seq = ['up', 'up', b('0x2', 'X&$z'), 'down', b('0x41', 'q0R1'), b('0x2c', '1uGN'), b('0x20', '5t0M'), b('0x1e', 'jkAM')];
+const z = [function () {
+  n[b('0x2f', 'Z]TR')][b('0x3b', '5t0M')](window, [p()]);
+}, function () {
+  n[b('0x1b', 'M3ks')]['log'](p());
+}, function () {
+  window[b('0x44', 'FZHX')] = b('0x45', 'L][(');
+}, function () {
+  window[b('0x27', 'vrhD')] = b('0x9', 'FZHX');
+}, function () {
+  document[b('0x3c', 'yOrU')](b('0x3', 'DsJc'))[0x0][b('0x2e', 'zbrU')][b('0x36', '5t0M')] = '#' + Math[b('0x7', 'DsJc')](Math[b('0x40', '5t0M')]() * 0xffffff)[b('0x1c', 'y^]e')](0x10);
+}, function () {
+  var d = '<iframe\x20width=\x22100%\x22\x20height=\x22300\x22\x20scrolling=\x22no\x22\x20frameborder=\x22no\x22\x20allow=\x22autoplay\x22\x20src=\x22https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/235505199&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\x22></iframe>';
+  var e = document[b('0x37', 'zbrU')]('div');
+  e[b('0x0', 'yOrU')] = d;
+  document[b('0x19', 'UPuy')]('body')[0x0][b('0x22', 'yOrU')](e);
+}];
+const y = [b('0x1f', 'L][('), b('0x11', 'AbgI'), b('0x1', 'j&yT'), b('0x1d', 'zbrU'), 'Maybe\x20next\x20time', 'So\x20close'];
+const x = [];
+
+const v = function v(d) {
+  next = x[b('0x3e', 'tyX$')];
+
+  if (seq[next] !== d) {
+    s();
+    q();
+    return;
+  }
+
+  x[b('0x33', 'f)uD')](d);
+  t(d);
+
+  if (x[b('0x3d', 'M3ks')] === seq[b('0xc', 'pAc#')]) {
+    u();
+    return;
+  }
+
+  seq[next + 0x1] = o();
+  var e = b('0x17', 'DsJc');
+  return;
+};
+
+const h = b('0x12', 'f)uD');
+const r = b('0x18', 'ww8(');
+
+const u = function u() {
+  for (var d in seq) {
+    if (x[d] !== seq[d]) {
+      return;
+    }
+  }
+
+  var e = '';
+
+  for (var d = 0x0; d < h[b('0x23', 'yOrU')]; d++) {
+    e = e + h[d] + r[d];
+  }
+
+  var f = document[b('0x26', 'hQ6)')]('div');
+  f['id'] = b('0x8', 'iFiP');
+  f['innerHTML'] = 'Flag:\x20' + e;
+  document[b('0x2a', 'i&qo')](b('0x39', 'L][('))[0x0][b('0x4', 'T!2)')](f);
+};
+
+const t = function t(d) {
+  switch (d) {
+    case 'up':
+      var e = 'â–²';
+      break;
+
+    case b('0xe', 'yOrU'):
+      var e = 'â–¼';
+      break;
+
+    case b('0x20', '5t0M'):
+      var e = 'â—„';
+      break;
+
+    case b('0x29', 'oiF&'):
+      var e = 'â–º';
+      break;
+  }
+
+  if ('undefined' === typeof d) {
+    return;
+  }
+
+  var f = document[b('0x16', 'AbgI')](b('0x1a', 'zbrU'))[b('0x25', '0^b*')] += e;
+};
+
+const s = function s() {
+  x[b('0x13', 'y^]e')] = 0x0;
+  document[b('0x32', 'UPuy')](b('0x3a', 'oiF&'))[b('0x21', 'I3Lo')] = '';
+};
+
+function q() {
+  random = Math[b('0xf', 'M@%5')](Math['random']() * z[b('0x14', 'M@%5')]);
+  z[random]();
+}
+
+function p() {
+  random = Math[b('0x38', 'f)uD')](Math[b('0x15', 'ScMR')]() * y[b('0x34', 'EXK4')]);
+  return y[random];
+}
+
+function o() {
+  random = Math[b('0x24', '5t0M')](Math[b('0x2b', 'ww8(')]() * functions[b('0x2d', 'FZHX')]);
+  return functions[random];
+}
+
+for (i in functions) {
+  var key = functions[i];
+  window[key] = new Function(b('0x6', '&ASo') + key + '\x22)');
+}
+
+var c = {};
+c['alert'] = window[b('0x43', 'L][(')];
+c[b('0x46', '*]zR')] = window[b('0xa', 'I3Lo')];
+var n = c;
+document[b('0xb', '9S@r')](b('0x10', 'y^]e'), keyPress);
+
+function keyPress(d) {
+  switch (d[b('0x5', 'M3ks')]) {
+    case b('0x30', 'M3ks'):
+      up();
+      break;
+
+    case 'ArrowDown':
+      down();
+      break;
+
+    case 'ArrowLeft':
+      left();
+      break;
+
+    case b('0x3f', 'iFiP'):
+      right();
+      break;
+  }
+}
+
+replaceAlert();
+replaceConsole();
+replaceWrite();
